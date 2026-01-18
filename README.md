@@ -8,3 +8,9 @@ Binary Search Tree data structure in Javascript. A tree is a collection of nodes
 *insert(node, data) - It compares the given data with the data of the current node and moves left or right accordingly and recur until it finds a correct node with a null value where new node can be added.
 *remove(data) - It is helper methods which call removeNode by passing root node and given data and updates the root of the tree with the value returned by the function
 *removeNode(node, data) - It searches for a node with a given data and then perform certain steps to delete it.
+*inorder(node) - It performs inorder traversal of a tree starting from a given node          <left><root><right>
+*preorder(node) - It performs preorder traversal of a tree starting from a given node.       <root><left><rigth>
+*postorder(node) - It performs postorder traversal of a tree starting from a given node.     <left><right><root>
+*findMinNode(node) - It searches for a node with a minimum value starting from node.
+*getRootNode() - It returns the root node of a tree.
+*search(data) - It searches the node with a value data in the entire tree.
